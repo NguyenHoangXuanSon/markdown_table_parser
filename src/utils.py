@@ -12,7 +12,7 @@ def extract_markdown_from_image(image_path: str) -> str:
             contents=[
                 types.Part.from_bytes(data=image_bytes, mime_type="image/jpeg"),
                 "You are an expert in parsing scientific tables. "
-                "Your task is to convert the table in the image into a complete, single Markdown-formatted table. "
+                "Your task is to convert the table in the image into a complete, single Markdown-formatted table."
                 "Ensure every cell's content is preserved **exactly as seen, including special characters and text like 'n =', 'Ref.', or ranges (e.g., '0.5–2.1')**. "
                 "The table has **hierarchical headers**. "
                 "You MUST combine all levels of hierarchical headers into a single, descriptive header row, using a clear separator (e.g., ' / '). **CRITICALLY: Remove all footnote/superscript characters (e.g., ᵃ, ᵇ, ᶜ) from the column headers** for optimal query performance. "

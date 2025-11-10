@@ -202,7 +202,22 @@ dense_case = [
         "image": "data/dense_case/d10.jpg",
         "ques": "Tỷ lệ tử vong do mọi nguyên nhân (All-cause mortality) của nhóm 'Midazolam-negative group' là bao nhiêu?",
         "ans": "8 (62%)"
-    }
+    },
+    {
+    "image": "data/dense_case/d12.jpg",
+    "ques": "Trong nhóm 'Adjusted group, ethnicity', giá trị RR (95% CI) cho 'AR ≥ 28 CAG' là bao nhiêu?",
+    "ans": "1.12 (0.55–2.25)"
+  },
+  {
+    "image": "data/dense_case/d12.jpg",
+    "ques": "Giá trị P-value cho 'AR large CAG' trong nhóm 'Adjusted group, ethnicity and additional variables' là bao nhiêu?",
+    "ans": "1.0"
+  },
+  {
+    "image": "data/dense_case/d12.jpg",
+    "ques": "Đối với 'AR average CAG', giá trị P-value trong nhóm 'Adjusted group, ethnicity' là bao nhiêu",
+    "ans": "0.7"
+  }
 ]
 
 
@@ -328,4 +343,5 @@ structural_case = [
         "ques": "Trong nhóm CYP19 11 repeats, có bao nhiêu con gái không bị ảnh hưởng (Unaffected) mà mẹ có tình trạng 'Non-carrier' (Không mang mầm bệnh) đối với kiểu gen 1/0?",
         "ans": "16"
     }
+    
 ]
