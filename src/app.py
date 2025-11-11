@@ -8,10 +8,10 @@ import logging
 from src.test_data import happy_case, dense_case, structural_case, valid_case  
 logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
-#allowed_imgs = {"v1.png", "v3.png", "v8.png", "v4.png"}
-#test_cases = [item for item in valid_case if any(x in item["image"] for x in allowed_imgs)]
+allowed_imgs = {"v11.png", "v12.png", "v14.png"}
+test_cases = [item for item in valid_case if any(x in item["image"] for x in allowed_imgs)]
 
-test_cases = valid_case
+#test_cases = valid_case
 count_true_result = 0
 markdown_cache = {}
 failed_cases = []

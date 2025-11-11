@@ -496,5 +496,40 @@ valid_case = [
     "image": "data/valid_case/v10.png",
     "ques": "Giá trị **KRR** của phương pháp **KL** trên tập dữ liệu **TOFU-5%** là bao nhiêu?",
     "ans": "0.0"
+  },
+  {
+    "image": "data/valid_case/v111.png",
+    "ques": "Với độ dày (**Thickness**) **1.8 (mm)**, trọng lượng theo đơn vị **lb/ft** của kích thước **Nominal Size 44 (mm)** là bao nhiêu?",
+    "ans": "1.274"
+  },
+  {
+    "image": "data/valid_case/v11.png",
+    "ques": "Trọng lượng theo đơn vị **kg/m** của kích thước **Nominal Size 54 (mm)** với độ dày (**Thickness**) **2.0 (mm)** là bao nhiêu?",
+    "ans": "2.565"
+  },
+  {
+    "image": "data/valid_case/v12.png",
+    "ques": "Trong nhóm **Carbon**, với tiêu chuẩn **A500 Gr. C**, giá trị giới hạn chảy tối thiểu **F\u1d67\u00b9 (MPa)** là bao nhiêu?",
+    "ans": "320"
+  },
+  {
+    "image": "data/valid_case/v13.png",
+    "ques": "Hàm lượng nguyên tố **Silicon (Si)** trong loại thép **A588** thuộc nhóm **Corrosion resistant, High-strength low-alloy** là bao nhiêu?",
+    "ans": "0.4–0.65"
+  },
+  {
+    "image": "data/valid_case/v13.png",
+    "ques": "Với loại thép **A618 Gr. III**, độ giãn dài tối thiểu (**Minimum Elongation** - %) là bao nhiêu?",
+    "ans": "22"
+  },
+  {
+    "image": "data/valid_case/v14.png",
+    "ques": "Với **Span Rating 40/20** và **Span Governed By L/240**, giá trị **Uniform Load (PSF)** ứng với khoảng cách **Center-to-Center of Supports 24 (inches)** là bao nhiêu?",
+    "ans": "163"
+  },
+  {
+    "image": "data/valid_case/v14.png",
+    "ques": "Với **Span Rating 48/24** và **Span Governed By L/360**, giá trị **Uniform Load (PSF)** ứng với khoảng cách **Center-to-Center of Supports 60 (inches)** là bao nhiêu?",
+    "ans": "15"
   }
 ]
