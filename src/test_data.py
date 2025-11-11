@@ -345,3 +345,156 @@ structural_case = [
     }
     
 ]
+
+valid_case = [
+    {
+    "image": "data/valid_case/v1.png",
+    "ques": "Với mô hình **MedLLaMA (8B)**, giá trị **Macro-F1** của phương pháp chấm điểm **M2 (LL-Rank)** trong nhóm **Top-5** là bao nhiêu?",
+    "ans": "24.45"
+    },
+    {
+    "image": "data/valid_case/v1.png",
+    "ques": "Giá trị **Hit@10** của phương pháp chấm điểm **M1 (GenMap)** cho mô hình **AlphaMed (3B)** là bao nhiêu?",
+    "ans": "25.17"
+    },
+    {
+    "image": "data/valid_case/v1.png",
+    "ques": "Giá trị **Hit@10** của phương pháp chấm điểm **M1 (GenMap)** cho mô hình **AlphaMed (7B)** là bao nhiêu?",
+    "ans": "44.72"
+    },
+    {
+    "image": "data/valid_case/v2.png",
+    "ques": "Trong nhóm **SWE-Agent**, điểm **Rust** của mô hình **Qwen3-Coder-480B-Instruct** là bao nhiêu?",
+    "ans": "24.6"
+  },
+  {
+    "image": "data/valid_case/v2.png",
+    "ques": "Trong nhóm **Claude Code**, điểm **AVG** của mô hình **Claude-Sonnet-4** là bao nhiêu?",
+    "ans": "32.9"
+  },
+  {
+    "image": "data/valid_case/v2.png",
+    "ques": "Trong nhóm **SWE-Agent**, điểm **C++** của mô hình **GPT-4.1** là bao nhiêu?",
+    "ans": "28.3"
+  },
+  {
+    "image": "data/valid_case/v3.png",
+    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **F1** của phương pháp **R1-Search-base-7B+R** trên tập dữ liệu **HotpotQA** là bao nhiêu?",
+    "ans": "60.14"
+  },
+  {
+    "image": "data/valid_case/v3.png",
+    "ques": "Giá trị **F1** trung bình (Avg.) của phương pháp **IRCoT** trong nhóm **Llama-8B** là bao nhiêu?",
+    "ans": "38.72"
+  },
+  {
+    "image": "data/valid_case/v3.png",
+    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **EM** của phương pháp **R1-Search-base-7B** trên tập dữ liệu **NQ** là bao nhiêu?",
+    "ans": "49.11"
+  },
+  {
+    "image": "data/valid_case/v4.png",
+    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **F1** của phương pháp **TeaRAG-Con (Hybrid)** trên tập dữ liệu **2Wiki** là bao nhiêu?",
+    "ans": "53.88"
+  },
+  {
+    "image": "data/valid_case/v4.png",
+    "ques": "Giá trị **F1** của phương pháp **Single-G (Graph)** trên tập dữ liệu **2Wiki** trong nhóm **Llama3-8B** là bao nhiêu?",
+    "ans": "19.82"
+  },
+  {
+    "image": "data/valid_case/v4.png",
+    "ques": "Giá trị **F1** của phương pháp **Single-G (Graph)** trên tập dữ liệu **2Wiki** trong nhóm **Llama3-8B** là bao nhiêu?",
+    "ans": "19.82"
+  },
+  {
+    "image": "data/valid_case/v5.png",
+    "ques": "Giá trị **PSNR** của phương pháp **S²LM-Gemma3-1B** trên tập dữ liệu **IVT-M** trong cột **|Cover/Stego|** là bao nhiêu?",
+    "ans": "51.7"
+  },
+  {
+    "image": "data/valid_case/v5.png",
+    "ques": "Với tập dữ liệu **IVT-S** trong cột **|Secret/Recovery|**, giá trị **WER** của phương pháp **LanNet [38]** là bao nhiêu?",
+    "ans": "0.004"
+  },
+  {
+    "image": "data/valid_case/v5.png",
+    "ques": "Giá trị **ROUGE** của phương pháp **S²LM-MiniCPM-1B** trên tập dữ liệu **IVT-L** trong cột **|Secret/Recovery|** là bao nhiêu?",
+    "ans": "0.859"
+  },
+  {
+    "image": "data/valid_case/v6.png",
+    "ques": "Trong nhóm **Online Assistants**, giá trị **PPL** của mô hình **MMDuet** là bao nhiêu?",
+    "ans": "5.69"
+  },
+  {
+    "image": "data/valid_case/v6.png",
+    "ques": "Trong nhóm **Offline Video-LLMs/LVLMs**, giá trị **SumFluent↑** của mô hình **Qwen2.5-VL** trong phần **Offline Evaluation (Fixed decoding)** là bao nhiêu?",
+    "ans": "4.24"
+  },
+  {
+    "image": "data/valid_case/v6.png",
+    "ques": "Trong phần **Online Evaluation (Response-silence decoding)**, giá trị **TimRedun↓** của mô hình **LiveStar (Ours)** là bao nhiêu?",
+    "ans": "0.95"
+  },
+  {
+    "image": "data/valid_case/v7.png",
+    "ques": "Trong nhóm **Llama-3-8B-Instruct, KV Size = 128**, giá trị **PCount** của phương pháp **HeadKV-R2** là bao nhiêu?",
+    "ans": "6.60"
+  },
+  {
+    "image": "data/valid_case/v7.png",
+    "ques": "Trong nhóm **Mistral-7B-Instruct, KV Size = 128**, giá trị **QMsum** của phương pháp **SurfaceLogicKV** là bao nhiêu?",
+    "ans": "23.64"
+  },
+  {
+    "image": "data/valid_case/v7.png",
+    "ques": "Giá trị **Avg** của phương pháp **PyramidKV** trong nhóm **123B Mistral-Large-Instruct-2411, KV Size = 128** là bao nhiêu?",
+    "ans": "47.04"
+  },
+  {
+    "image": "data/valid_case/v8.png",
+    "ques": "Trong nhóm **CNN**, giá trị **HD95↓** của phương pháp **EMCAD [28]** trên tập dữ liệu **ACDC** là bao nhiêu?",
+    "ans": "1.13"
+  },
+  {
+    "image": "data/valid_case/v8.png",
+    "ques": "Giá trị **DSC↑** của phương pháp **PAG-TransYnet [5]** trên tập dữ liệu **SegPC-2021**là bao nhiêu?",
+    "ans": "79.41"
+  },
+  {
+    "image": "data/valid_case/v8.png",
+    "ques": "Trong nhóm **ViT**, giá trị **HD95↓** của phương pháp **TransDeepLab [1]** trên tập dữ liệu **ISIC-2018** là bao nhiêu?",
+    "ans": "4.07"
+  },
+  {
+    "image": "data/valid_case/v9.png",
+    "ques": "Giá trị **VHR@1** của mô hình **BERT4Rec** trên tập dữ liệu **Automotive** là bao nhiêu?",
+    "ans": "0.2801"
+  },
+  {
+    "image": "data/valid_case/v9.png",
+    "ques": "Giá trị **ValidRatio** của mô hình **LLaRA** trên tập dữ liệu **Home & Kitchen** là bao nhiêu?",
+    "ans": "0.9984"
+  },
+  {
+    "image": "data/valid_case/v9.png",
+    "ques": "Với tập dữ liệu **Clothing & Shoes**, giá trị **HR@1** của mô hình **Gemini 2.0 Flash** là bao nhiêu?",
+    "ans": "0.7102"
+  },
+  {
+    "image": "data/valid_case/v10.png",
+    "ques": "Giá trị **KFR** của phương pháp **DRAGON (ours)** trên tập dữ liệu **TOFU-1%** là bao nhiêu?",
+    "ans": "0.98"
+  },
+  {
+    "image": "data/valid_case/v10.png",
+    "ques": "Với tập dữ liệu **TOFU-10%**, giá trị **DS(↓)** của mô hình **Retained LLM** là bao nhiêu?",
+    "ans": "39.7"
+  },
+  {
+    "image": "data/valid_case/v10.png",
+    "ques": "Giá trị **KRR** của phương pháp **KL** trên tập dữ liệu **TOFU-5%** là bao nhiêu?",
+    "ans": "0.0"
+  }
+]
