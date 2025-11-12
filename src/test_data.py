@@ -56,7 +56,7 @@ happy_case = [
     },
     {
         "image": "data/happy_case/h6.jpg",
-        "ques": "Tỷ lệ phần trăm bệnh nhân nữ (% female) trong nhóm 'With diffuse SSc' là bao nhiêu?",
+        "ques": "Tỷ lệ phần trăm bệnh nhân nữ (%female) trong nhóm 'With diffuse SSc' là bao nhiêu?",
         "ans": "95.7"
     },
     {
@@ -96,7 +96,7 @@ happy_case = [
     },
     {
         "image": "data/happy_case/h10.jpg",
-        "ques": "Tổng số bệnh nhân bị bệnh về phổi (LungLung)  là bao nhiêu?",
+        "ques": "Tổng số bệnh nhân bị bệnh về phổi (Lung)  là bao nhiêu?",
         "ans": "44"
     }
 ]
@@ -379,7 +379,7 @@ valid_case = [
   },
   {
     "image": "data/valid_case/v3.png",
-    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **F1** của phương pháp **R1-Search-base-7B+R** trên tập dữ liệu **HotpotQA** là bao nhiêu?",
+    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **F1** của phương pháp **Search-R1-base-7B+R*** trên tập dữ liệu **HotpotQA** là bao nhiêu?",
     "ans": "60.14"
   },
   {
@@ -389,7 +389,7 @@ valid_case = [
   },
   {
     "image": "data/valid_case/v3.png",
-    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **EM** của phương pháp **R1-Search-base-7B** trên tập dữ liệu **NQ** là bao nhiêu?",
+    "ques": "Trong nhóm LLM **Llama3-8B**, giá trị **EM** của phương pháp **Search-R1-base-7B** trên tập dữ liệu **NQ** là bao nhiêu?",
     "ans": "49.11"
   },
   {
@@ -531,5 +531,46 @@ valid_case = [
     "image": "data/valid_case/v14.png",
     "ques": "Với **Span Rating 48/24** và **Span Governed By L/360**, giá trị **Uniform Load (PSF)** ứng với khoảng cách **Center-to-Center of Supports 60 (inches)** là bao nhiêu?",
     "ans": "15"
+  },
+  {
+    "image": "data/valid_case/v16.png",
+    "ques": "Lợi nhuận gộp về bán hàng và cung cấp dịch vụ của **Quý II** năm nay là bao nhiêu?",
+    "ans": "283.237.139.662"
+  },
+  {
+    "image": "data/valid_case/v16.png",
+    "ques": "Chi phí tài chính trong **Năm trước** của **Quý II** là bao nhiêu?",
+    "ans": "2.201.585.303"
+  },
+  {
+    "image": "data/valid_case/v17.png",
+    "ques": "Giá trị **Nguyên giá** tài sản **Nhà cửa, vật kiến trúc** vào **cuối kỳ 30/06/2025** là bao nhiêu?",
+    "ans": "127.868.635.170"
+  },
+  {
+    "image": "data/valid_case/v17.png",
+    "ques": "Giá trị **Máy móc, thiết bị** thuộc mục **Giá trị hao mòn lũy kế** tăng trong kỳ là bao nhiêu?",
+    "ans": "5.892.086.579"
+  },
+  {
+    "image": "data/valid_case/v17.png",
+    "ques": "Tổng **Giá trị còn lại** của **Phương tiện vận tải, truyền dẫn** vào **Đầu kỳ** là bao nhiêu?",
+    "ans": "20.976.020.921"
+  },
+  {
+    "image": "data/valid_case/v18.png",
+    "ques": "Giá trị **Nguyên giá** của **Nhà cửa và vật kiến trúc** vào **cuối kỳ** (30/09/2025) là bao nhiêu?",
+    "ans": "8.110.714.719.595"
+  },
+  {
+    "image": "data/valid_case/v18.png",
+    "ques": "Tổng **Hao mòn lũy kế** vào **cuối kỳ** là bao nhiêu?",
+    "ans": "22.553.313.574.120"
+  },
+  {
+    "image": "data/valid_case/v18.png",
+    "ques": "Giá trị **còn lại** của **Phương tiện vận chuyển** vào **đầu kỳ** là bao nhiêu?",
+    "ans": "326.315.747.875"
   }
+  
 ]
