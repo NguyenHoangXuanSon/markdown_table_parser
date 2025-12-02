@@ -10,7 +10,7 @@ This project is a high-performance **Retrieval-Augmented Generation (RAG)** API 
 - **Citations:** Returns specific source citations (grounding chunks) used to generate the answer.
 - **FastAPI Powered:** Async architecture for high performance.
 
-## 📦 Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -26,9 +26,3 @@ Create a .env file in the root directory of the project.
 4. **Running the Application**
    ```bash 
    uv run uvicorn src.app:app --reload
-
-
-
-
-
-
